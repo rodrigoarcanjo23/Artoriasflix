@@ -38,21 +38,23 @@ export const SliderItem = styled.li`
   }
 `;
 
+// eslint-disable-next-line react/prop-types
+function Slider({ children }) {
+  return (
+    <Container>
+      <SlickSlider {...{
+        dots: false,
+        infinite: false,
+        speed: 300,
+        centerMode: false,
+        variableWidth: true,
+        adaptiveHeight: true,
+      }}
+      >
+        {children}
+      </SlickSlider>
+    </Container>
+  );
+}
 
-const Slider = ({ children }) => (
-  <Container>
-    <SlickSlider {...{
-      dots: false,
-      infinite: false,
-      speed: 300,
-      centerMode: false,
-      variableWidth: true,
-      adaptiveHeight: true,
-    }}
-    >
-      {children}
-    </SlickSlider>
-  </Container>
-);
-
-export default Slider; 
+export default Slider;

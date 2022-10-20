@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import VideoIframeResponsive from './components/VideoIframeResponsive';
 import { BannerMainContainer, ContentAreaContainer, WatchButton } from './styles';
@@ -12,6 +13,7 @@ function getYouTubeId(youtubeURL) {
 
 export default function BannerMain({
   videoTitle,
+  // eslint-disable-next-line react/prop-types
   videoDescription,
   url,
 }) {
@@ -43,5 +45,3 @@ export default function BannerMain({
     </BannerMainContainer>
   );
 }
-
-
