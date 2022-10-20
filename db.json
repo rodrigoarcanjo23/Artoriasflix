@@ -2,29 +2,29 @@
   "categorias": [
     {
       "id": 1,
-      "titulo": "Front End",
+      "titulo": "Series",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "House of the Dragon é tão bom assim? #DicasDeSeries",
+        "url": "https://youtu.be/i_IwdbZ7DcEd"
       }
     },
     {
       "id": 2,
-      "titulo": "Back End",
+      "titulo": "Animes",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Animes em alta",
+        "url": "https://youtu.be/fzR82oXbjnY"
       }
     },
     {
       "id": 3,
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "Canais",
       "cor": "#9cd33b",
       "link_extra": {
         "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/cursos-online-mobile"
+        "url": "https://youtu.be/CUZ_PXQhK40"
       }
     },
     {
@@ -37,8 +37,8 @@
       "titulo": "Games",
       "cor": "red",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Street fighter 6",
+        "url": "https://youtu.be/1INU3FOJsTwd"
       }
     }
   ],
